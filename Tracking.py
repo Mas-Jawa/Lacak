@@ -141,3 +141,12 @@ def cli_argument():
     
     # Parse command-line arguments using the 'cli_argument' function.
 args = cli_argument()
+# Parse command-line arguments using the 'cli_argument' function.
+args = cli_argument()
+# Call the process_number function and pass the phone number as a single string.
+process_number("".join(args.phone_number))
+get_approx_coordinates()
+draw_map()
+
+print()
+
